@@ -64,9 +64,8 @@ module.exports = function (RED) {
         // initialize sensor
         sensorInit();
 
-
         /**
-         * @param  {} 'input'
+         * @param  {} 'input' the node an input for trigger measures
          * @param  {object} msg payload object containing data
          */
         node.on('input', function (msg) {

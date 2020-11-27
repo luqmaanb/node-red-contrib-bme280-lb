@@ -14,7 +14,64 @@ This is not an official node.js module hence it will need to be installed from g
 ## Example Flow
 
 ```json
-[{"id":"da2d366f.a12ba8","type":"tab","label":"Flow 5","disabled":false,"info":""},{"id":"a3143510.b32548","type":"bme280","z":"da2d366f.a12ba8","name":"","bus":"1","address":"0x76","topic":"bme280","x":520,"y":340,"wires":[["6f3f007b.02edb"]]},{"id":"6f3f007b.02edb","type":"debug","z":"da2d366f.a12ba8","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":730,"y":340,"wires":[]},{"id":"4e33cf3d.7edb7","type":"inject","z":"da2d366f.a12ba8","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"1","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":340,"y":340,"wires":[["a3143510.b32548"]]}]
+[{
+	"id": "da2d366f.a12ba8",
+	"type": "tab",
+	"label": "Flow 5",
+	"disabled": false,
+	"info": ""
+}, {
+	"id": "a3143510.b32548",
+	"type": "bme280",
+	"z": "da2d366f.a12ba8",
+	"name": "",
+	"bus": "1",
+	"address": "0x76",
+	"topic": "bme280",
+	"x": 520,
+	"y": 340,
+	"wires": [
+		["6f3f007b.02edb"]
+	]
+}, {
+	"id": "6f3f007b.02edb",
+	"type": "debug",
+	"z": "da2d366f.a12ba8",
+	"name": "",
+	"active": true,
+	"tosidebar": true,
+	"console": false,
+	"tostatus": false,
+	"complete": "false",
+	"statusVal": "",
+	"statusType": "auto",
+	"x": 730,
+	"y": 340,
+	"wires": []
+}, {
+	"id": "4e33cf3d.7edb7",
+	"type": "inject",
+	"z": "da2d366f.a12ba8",
+	"name": "",
+	"props": [{
+		"p": "payload"
+	}, {
+		"p": "topic",
+		"vt": "str"
+	}],
+	"repeat": "1",
+	"crontab": "",
+	"once": false,
+	"onceDelay": 0.1,
+	"topic": "",
+	"payload": "",
+	"payloadType": "date",
+	"x": 340,
+	"y": 340,
+	"wires": [
+		["a3143510.b32548"]
+	]
+}]
 ```
 
 ## Usage
