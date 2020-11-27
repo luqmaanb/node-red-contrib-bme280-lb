@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-bme280-lb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node for BME280 environmental sensor",
   "main": "index.js",
   "repository": {
